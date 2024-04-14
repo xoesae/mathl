@@ -6,8 +6,7 @@ const rl = readline.createInterface({
     output: process.stdout,
 })
 
-
-function repl() {
+export function repl() {
     rl.question("> ", (text) => {
         if (text === "exit") {
             rl.close();
@@ -18,6 +17,5 @@ function repl() {
         }
     })
 }
-  
 
 repl()
