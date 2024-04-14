@@ -1,7 +1,14 @@
 {
   "name": "mathl",
+  "description": "A interpreter for subset grammar math.",
+  "author": {
+    "name": "Carlos Junior",
+    "email": "carlosrogeriocr02@gmail.com",
+    "url": "https://github.com/xoesae"
+  },
   "module": "src/index.ts",
   "type": "module",
+  "license": "SEE LICENSE IN <LICENSE>",
   "scripts": {
     "mathl": "bun run src/index.ts"
   },
@@ -10,5 +17,8 @@
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "bin": {
+    "math": "./mathl"
   }
 }
